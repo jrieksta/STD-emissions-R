@@ -28,11 +28,12 @@ iso.ER <- iso.ng %>%
 
 ######### MTs , HTs, SQTS normalized to temperature ###################
 
-#ER_mt_ht = calculated emission rate for MTs and HTs
+#ER_MT_HT = calculated emission rate for MTs and HTs
+#ER_SQT = calculated emission rate for SQTs
 #Temp.bag = temperature in the branch enclosure /bag
 #Beta value for MT and HTs = 0.09
 #Beta value for SQTs = 0.18
 
-ER_MT_HT1=ER_mt_ht/exp(0.09*(ER_mt_ht$Temp.bag-30)) #mt ht
+ER_MT_HT=ER_mt_ht/exp(0.09*(ER_mt_ht$Temp.bag-30)) #mt ht
 ER_SQT=ER_sqt/exp(0.18*(ER_sqt$Temp.bag-30)) #sqt
 

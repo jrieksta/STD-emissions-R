@@ -2,16 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1613745811227.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2665912375",
+    "hash" : "0",
     "id" : "B8AAB00A",
-    "lastKnownWriteTime" : 1613745832,
-    "last_content_update" : 1613745832877,
+    "lastKnownWriteTime" : 1613745951,
+    "last_content_update" : 1613745955820,
     "path" : "C:/Users/lcm767/OneDrive - Københavns Universitet/Desktop/Projects/Repositories/STD-emissions-R/STD_emission_rate_JRieksta.R",
     "project_path" : "STD_emission_rate_JRieksta.R",
     "properties" : {
+        "cursorPosition" : "30,9",
+        "scrollLine" : "13"
     },
     "read_only" : false,
     "read_only_alternatives" : [
